@@ -1,0 +1,406 @@
+/*
+Theme Name: Your Child Theme
+Description: Child theme for the Theme Blvd framework
+Author: Your name here
+Template: alyeska
+*/
+
+/*
+Note: The parent theme does not include any CSS in
+style.css, and so you don't need to @import it here.
+*/
+
+/* Add your custom CSS here. */
+/*
+======================================================================================================
+Overall Styles
+======================================================================================================
+*/
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 130%;
+	color: #324145;
+}
+#wrapper {background-image: url(//centennial.provo.edu/wp-content/uploads/2015/09/cms-website-background-4.png)!important;}
+body.theme-background {background:none;}
+video {width: 100%;}
+#main {background: transparent;}
+#bottom {background: transparent;}
+#top{background: #000000;}
+p {margin-top:25px;margin-bottom: 25px;}
+p.contactinfo {
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+	font-size: 100%;
+}
+p.contactinfo span {margin: 0 0 0 355px;}
+.emergencynotif {
+	font-size: 30px;
+	text-align: center;
+}
+table {width: 100%;}
+td, th {border: 1px solid #ccc;}
+table {margin-top: 30px;margin-bottom: 30px;}
+table tr th {font-weight: bold; text-align: center;}
+table tr td {padding: 10px;}
+
+.twocolumn {float: left;width: 46%;margin: 0 2%;min-width: 220px;}
+.threecolumn {float: left;width: 29%;margin: 0 10px;}
+.left {float: left; margin-right: 15px; margin-bottom: 15px;}
+.right {float: right;margin-left: 15px;margin-bottom: 15px;}
+.noblt {list-style: none;}
+.clear {clear:both;}
+.center {text-align: center;margin: 0 auto;display: block;}
+.bottom {width: 100%;clear: both;}
+.noblt {text-decoration: none;}
+iframe {width: 100%;border: none;}
+.imageborder {background: #fff;padding: 5px;border-radius: 6px;border: 1px solid #ccc;}
+.syllabus {
+	float: right;
+	border: 1px solid #ccc;
+	padding: 0px 20px 0 20px;
+	margin: 0 0 20px 20px;
+}
+.article-wrap .syllabus h2 {
+	margin-top: 10px;
+}
+img.staff-member-photo {
+	float: none!important;
+}
+.visuallyhidden {
+	position: absolute;
+	left: -9000px;
+}
+.grecaptcha-badge {display: none;visibility: hidden;}
+/*
+----------------------------------------Search Styles--------------------------------------------------------------
+*/
+.search-filters-mobile-button {display: none;}
+.search-filters {float: right; width: 256px;}
+.search-results-item {float: left; width: calc(100% - 256px);list-style: none; margin-top: 30px;}
+.search-results-item:after {content: ""; display: block; width: 100%;border-bottom: 1px solid #ccc; margin-top: 20px;}
+.search_page_list {
+	margin-top: 30px;
+	float: right;
+}
+.search_page_list li {
+	list-style: none;
+	display: inline;
+}
+/*
+=====================================================================================================
+Header Styles
+======================================================================================================
+*/
+h1, h2, h3, h4 {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	color: #131723;
+	clear: both;
+}
+h1 {font-size: 3em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.2em;}
+/*
+======================================================================================================
+Navigation Styles
+======================================================================================================
+*/
+.classic-navy .menu-middle {
+	border-top: #fff solid 1px;
+	background-image: none;
+	background-color: #243b72;
+}
+.classic-navy .sf-menu ul {background-color: #243b72;}
+#main-menu .sf-menu li a {font-family: 'Open Sans', sans-serif;font-weight: 700;}
+.classic-navy .sf-menu a {
+	color: #d3d3d3;
+	font-size: 16px!important;
+	margin-left: 17px;
+	margin-right: 17px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: none!important;
+}
+.classic-navy .sf-menu>li>a:hover {background-image: none;color:#243b72;background-color: #939598;}
+.classic-navy .sf-menu li li a:hover {color:#243b72;background-color: #939598;}
+.sf-menu ul {left: 17px;}
+/*
+======================================================================================================
+Slide Styles
+======================================================================================================
+*/
+.slide-title {font-family: 'Exo 2', sans-serif!important;}
+.slide-body .content {font-size: 150%;}
+.flexslider .slides img {height: 216px;}
+/*
+======================================================================================================
+Blog Styles
+======================================================================================================
+*/
+.primary-element-2 {margin-bottom: 15px;}
+a.btn {float: right;background-color:#6d0d00;color: #fff;font-size: 14px;text-shadow: none!important;background-image: none!important;}
+a.btn:hover{
+	background-color:#243b72!important;
+	color: #fff;
+	text-shadow: none!important;
+	background-image: none!important;
+}
+.article-wrap h1, .article-wrap h2, .article-wrap h3, .article-wrap h4 {
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+/*
+======================================================================================================
+Sidebar Styles
+======================================================================================================
+*/
+.fixed-sidebar .widget .themeblvd-mini-post-list .mini-post-list-content h4 {font-size: 1.1em;}
+.textwidget .equality p {font-size: 10px;}
+
+/*
+=====================================================================================================
+Calendar Styles
+======================================================================================================
+*/
+/*
+===============================================
+list Calendar Styles
+===============================================
+*/
+.simcal-calendar {
+	background: #f5f5f5;
+	border: 1px solid #d3d3d3;
+	border-radius: 4px;
+	padding-top: 10px;
+	background: #fff;
+}
+.simcal-calendar .simcal-day-label {border-bottom: 1px solid #243b72!important;}
+.simcal-calendar .simcal-day-label span, .simcal-calendar .simcal-day-label {background-color: #243b72!important;}
+.simcal-calendar .simcal-today div {border: 1px solid #6d0d00!important;}
+/*
+===============================================
+month Calendar Styles
+===============================================
+*/
+.simcal-day-label {color: #fff;}
+.simcal-calendar .simcal-today div{border: 5px solid #6d0d00!important;}
+
+/*
+======================================================================================================
+Footer Styles
+======================================================================================================
+*/
+.menu-psd-foot-menu-container {
+	background-image: url(http://dixon.provo.edu/wp-content/uploads/2014/12/pcsd-seal-faded.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#text-10 {
+	font-size: 12px;
+	text-align: center;
+	color: #6d0d00;
+	background-image: url(http://centennial.provo.edu/wp-content/uploads/2015/10/cms-motto-background.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 160px;
+}
+.footer-image {
+	background-image: url(http://centennial.provo.edu/wp-content/uploads/2015/10/cms-footer-girl-1.png);
+	background-repeat: no-repeat;
+	width: 351px;
+	height: 524px;
+	position: absolute;
+	bottom: -71px;
+	left: 615px;
+	padding-bottom: -10px;
+}
+/*
+======================================================================================================
+Directory Styles
+======================================================================================================
+*/
+/*=============================================
+Simple list Teacher Course Directory Styles
+===============================================*/
+.staff-member-listing {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.staff-member-listing .personalvCard {
+	width: 33%;
+	text-align: center;
+	border: none;
+	border-radius: 0;
+}
+.staff-member-listing .personalvCard:nth-child(even) {
+	background-color: #dbe1e7;
+}
+.staff-member-listing .personalvCard:nth-child(odd) {
+	background-color: #f1f5f9;
+}
+.staff-member-listing .personalvCard img {
+	max-width: 100px;
+	max-height: 125px;
+}
+.staff-member-listing .personalvCard ul {
+	padding-left: 0;
+	list-style: none;
+}
+/*
+----------------------------------------Gallery Styles--------------------------------------------------------------
+*/
+.gallery .gallery-item .gallery-icon {
+	max-height: 130px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+/*
+===============================================
+Teacher Course Directory Styles
+===============================================
+
+.directoryHeadImage {margin-bottom: 15px;}
+.directoryHidden {display: none;}
+.directoryActive {display: block;}
+#form1 option {font-size: 20px;}
+.directoryprofile {
+	width: 100%;
+	background-color: #f8f8f8;
+	background:-webkit-gradient(linear,left bottom,left top,from(#f6f6f6),to(#fff));
+	border-radius: 4px;
+	border: 1px #fff solid;
+	padding: 10px 5px 10px 10px;
+	box-shadow: 1px 1px 5px #ccc;
+	margin-bottom: 20px;
+}
+.directoryprofile h2 {margin-top: 0;}
+.directoryprofile img {
+	padding: 8px;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+	box-shadow:3px 4px 5px rgba(0, 0, 0, .2);
+	max-width:116px;
+	float: left;
+}
+.directoryprofile .information {
+	float: left;
+	max-width: 36%;
+	margin: 0 2% 0 1%;
+}
+.directoryprofile .information ul li {list-style: none;margin-bottom: 20px;}
+.directoryprofile .information ul li:last-child {margin-bottom: 0px;}
+.directoryprofile .courses {
+	float: left;
+	width: 34%;
+	margin: 0 1% 0 1%;
+
+}
+.directoryprofile .courses ul li {
+	font-size: 0.8em;
+	list-style: none;
+}
+p.teachdir {margin-top: 0px;margin-bottom: 20px;}
+/*=============================================
+Admin Office Directory Styles
+===============================================
+.contactpage {
+	width: 48%;
+	background-color: #f8f8f8;
+	background:-webkit-gradient(linear,left bottom,left top,from(#f6f6f6),to(#fff));
+	border-radius: 4px;
+	margin: 0 5px 15px 5px;
+	border: 1px #fff solid;
+	float: left;
+	padding: 10px 5px 10px 10px;
+	box-shadow: 1px 1px 5px #ccc;
+}
+.contactpage img {
+	float: left;
+	margin: 0 0px 5px 0;
+	padding: 8px;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+	box-shadow:3px 4px 5px rgba(0, 0, 0, .2);
+}
+.contactpage ul {
+	float: left;
+	width: 63%;
+	margin-top: -10px!important;
+	margin-left: -20px!important;
+	list-style: none;
+	font-size: 0.8em;
+}
+.contactpage ul li:first-child {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.contactpage ul li:nth-child(2) {
+	font-style: italic;
+	font-size: 1em;
+}
+.contactpage ul li:nth-child(3), .contactpage ul li:nth-child(4), .contactpage ul li:nth-child(5), .contactpage ul li:nth-child(6),  .contactpage ul li:nth-child(7), .contactpage ul li:nth-child(8)  {
+	font-size: 1em;
+}
+.contactpage p {
+	font-size: 0.9em;
+	margin-top: 30px;
+}
+/*=====================================================================================================
+Responsive Styles
+=======================================================================================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+	#main-menu #menu-inner .sf-menu a {padding-right: 5px;padding-left: 5px;font-size: 12px!important;}
+	p.contactinfo span {margin-left: 65px;}
+	.textwidget iframe {max-width: 100%;}.contactpage {width: 100%;}
+	.footer-image {
+	background-image: url(http://centennial.provo.edu/wp-content/uploads/2015/10/cms-footer-girl.png);
+	background-repeat: no-repeat;
+	width: 297px;
+	height: 444px;
+	position: absolute;
+	bottom: -71px;
+	left: 485px;
+	padding-bottom: -10px;
+	}
+	.directoryprofile .information {max-width:70%;}
+	.directoryprofile .courses {clear:both;max-width: 100%;margin-top: 20px;}
+}
+@media screen and (max-width: 767px) {
+	p.contactinfo span {margin-left: 25px;}
+	.contactpage {width: 100%;}
+	.footer-image {
+	display:none;
+	}
+	.post_list .entry-content .featured-image-wrapper {float:none;}
+	.post_list .entry-content .featured-image-wrapper .featured-image .thumbnail {margin:0 auto;display: block;border: none;}
+	.post_list .entry-content .featured-image-wrapper .featured-image .thumbnail img {padding: 5px; border: 1px solid #ccc;border-radius: 6px;}
+	.post_list .entry-content p {clear:both;margin-top: 0;}
+	.directoryprofile img {margin:0 auto;display:block;float: none;}
+	.directoryprofile .information {clear:both;max-width:400px; margin-top: 20px;margin-left: -35px;}
+	.directoryprofile .courses {clear:both;width:100%;}
+
+}
+@media screen and (min-width: 481px) and (max-width: 611px){
+	p.contactinfo span{display: block;}
+	.contactpage {width: 100%;}
+}
+@media screen and (max-width: 480px){
+	p.contactinfo {text-align: center;}
+	p.contactinfo span {margin-left: 45px;}
+	.contactpage {width: 100%;}
+}
+@media print {
+	#top {display: none !important;}
+	.contactinfo {display: none;}
+	#main .main-content {width: 90%;}
+	a[href]:after {content: none !important;}
+  	@page {
+    	size: auto;   /* auto is the initial value */
+		margin: 0;  /* this affects the margin in the printer settings */
+	}
+}
