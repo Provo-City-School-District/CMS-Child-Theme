@@ -49,7 +49,7 @@
 		</header>
 		<header id="mainHeader">
 			<a href="<?php bloginfo( 'siteurl' ); ?>"><img src="<?php echo get_stylesheet_directory_uri().'/assets/images/header-logo.png'; ?>" alt="Timpview Logo" id="siteLogo" />
-			<h1>Dixon Middle School</h1>
+			<h1>Centennial Middle School</h1>
 			</a>
 				<aside>
 					<ul class="sociallinks">
@@ -63,7 +63,7 @@
 							</a>
 						</li>
 					-->
-						<li><a href="https://www.facebook.com/dmsprovo/"><img src="<?php echo get_template_directory_uri() .'/assets/icons/socialmedia-facebook-white.svg' ?>" alt="Link to Facebook" /></span>
+						<li><a href="https://www.facebook.com/CMStimberwolves"><img src="<?php echo get_template_directory_uri() .'/assets/icons/socialmedia-facebook-white.svg' ?>" alt="Link to Facebook" /></span>
 							</a>
 						</li>
 					</ul>
@@ -72,12 +72,11 @@
 			   			<label for="s" class="visuallyhidden" id="websitesearch">Website Search: </label>
 			   			<input class="search-input" aria-labelledby="websitesearch" id="s" name="s" type="text" value="<?php the_search_query(); ?>" placeholder="Search this website..." />
 			   			<input class="search-submit search-icon" type="submit" value="Search" />
-
 					</form>
 					<!-- end Search Form -->
 					<!-- Contact Information -->
 					<ul class="contactinfo" itemscope itemtype="https://schema.org/PostalAddress">
-						<li><span itemprop="streetAddress">750 West 200 North Provo</span><span itemprop="addressLocality"> Provo</span>, <span itemprop="addressRegion">Utah</span> <span itemprop="postalCode">84604</span><span class="phone" itemprop="telephone"> Phone: (801) 374-4980</span><span class="fax" itemprop="faxNumber"> Fax: (801) 374-4884</span></li>
+						<li><span itemprop="streetAddress">305 East 2320 North Provo</span><span itemprop="addressLocality"> Provo</span>, <span itemprop="addressRegion">Utah</span> <span itemprop="postalCode">84604</span><span class="phone" itemprop="telephone"> Phone: (801) 374-4980</span><span class="fax" itemprop="faxNumber"> Fax: (801) 370-4621</span></li>
 					</ul>
 					<!-- End Contact Information -->
 				</aside>

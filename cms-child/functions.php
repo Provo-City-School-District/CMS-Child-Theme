@@ -7,7 +7,7 @@ function my_theme_enqueue_styles() {
     wp_enqueue_script( 'child_scripts', get_theme_file_uri().'/assets/js/child-scripts.js', '', '1.0.0', true);
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', '' , '1.0.0', false);
 }
-add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles',20 );
 /*==========================================================================================
 Custom Excerpt
 ============================================================================================*/
@@ -22,6 +22,18 @@ function get_excerpt(){
 	$excerpt = '<p>'.$excerpt.'...'.'</p>';
 	return $excerpt;
 }
+/*==========================================================================================
+// Favicon
+============================================================================================*/
+function pcsd_add_favicon(){ ?>
+	<!-- Custom Favicons -->
+	<link rel="shortcut icon" href="<?php echo get_theme_file_uri(); ?>/assets/images/favicon.png"/>
+	<link rel="apple-touch-icon" href="<?php echo get_theme_file_uri(); ?>/assets/images/favicon.png">
+	<?php }
+//add the favicon link to the live site head
+add_action('wp_head','pcsd_add_favicon');
+//add the favicon to the login page
+add_action('login_head','pcsd_add_favicon');
 /*==========================================================================================
 // custom Login Page
 ============================================================================================*/
@@ -42,3 +54,21 @@ add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 /*==========================================================================================
 // ShortCodes
 ============================================================================================*/
+//sidebar controll [sidebar-control]
+function sidebar_func(){
+	//global $post;
+	   if(in_array( 13, get_post_ancestors($post))) {
+		   get_sidebar( 'about' );
+	   }
+	   elseif(in_array( 16504, get_post_ancestors($post))) {
+		   get_sidebar( 'counseling' );
+	   }
+	   elseif(in_array( 16538, get_post_ancestors($post))) {
+		   get_sidebar( 'policies-forms' );
+	   } elseif(in_array( 16483, get_post_ancestors($post))) {
+		   get_sidebar( 'faculty-staff' );
+	   } else {
+		   get_sidebar( $sidebar );
+	   }
+}
+add_shortcode( 'sidebar-control', 'sidebar_func' );

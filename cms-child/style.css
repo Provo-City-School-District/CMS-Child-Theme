@@ -1,22 +1,22 @@
 /*
- Theme Name:   Dixon Child (PCSD 2019 Theme)
- Theme URI:    https://dixon.provo.edu/
- Description:  Dixon Middle School Child theme of the Provo School District 2019 Theme
+ Theme Name:   Centennial Child (PCSD 2019 Theme)
+ Theme URI:    https://centennial.provo.edu/
+ Description:  Centennial Middle School Child theme of the Provo School District 2019 Theme
  Author:       Josh Espinoza, Rob Francom, Shauna Sprunger
  Author URI:   https://tech.provo.edu
  Template:     pcsd-2019-theme
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Text Domain:  dms-child
+ Text Domain:  cms-child
 */
 /*================================================================================================================
 Variables
 ================================================================================================================*/
 :root {
-	--primary-color:#131723;
-	--secondary-color:#f57721;
-	--offset-color:#ffff21;
+	--primary-color:#1b254e;
+	--secondary-color:#650607;
+	--offset-color:#aeaeae;
 	--grid-odd-clr:#e1e9f4;
 	--grid-even-clr:#cddbee;
 }
@@ -26,7 +26,7 @@ Fonts
 @font-face {
   font-family: "Arial Black";
   src: local("Arial Black"),
-  	   url("../dms-child/fonts/Arial-Black.ttf");
+  	   url("../cms-child/fonts/Arial-Black.ttf");
 }
 /*================================================================================================================
 Theme specific coloring

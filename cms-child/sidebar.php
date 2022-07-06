@@ -1,43 +1,38 @@
 <aside id="mainSidebar">
 	<section>
-		<h1>About Dixon</h1>
+		<h1>About Centennial</h1>
 		<ul class="imagelist">
 			<li>
-				<a href="https://dixon.provo.edu/contact-our-school/">
+				<a href="<?php bloginfo('url') ?>/contact-our-school/">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/telephone.png" alt="" />
 					<span>Contact Our School</span>
 				</a>
 			</li>
 			<li>
-				<a href="https://dixon.provo.edu/hours-of-operation/">
+				<a href="<?php bloginfo('url') ?>/hours-of-operation/">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/clock.png" alt="" />
 					<span>Hours of Operation</span>
 				</a>
 			</li>
 			<li>
-				<a href="https://dixon.provo.edu/community-council/">
+				<a href="<?php bloginfo('url') ?>/community-council/">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/council.png" alt="" />
 					<span>Community Council</span>
 				</a>
 			</li>
 			<li>
-				<a href="https://dixon.provo.edu/pta/">
+				<a href="<?php bloginfo('url') ?>/pta/">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/pta.png" alt="" />
 					<span>Parent Teacher Association</span>
 				</a>
 			</li>
 			<li>
-				<a href="https://dixon.provo.edu/our-teachers-staff/teacher-license-information/">
+				<a href="<?php bloginfo('url') ?>/faculty-staff/teacher-license-information/">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/license.png" alt="" />
 					<span>Teacher License Information</span>
 				</a>
 			</li>
-			<li>
-				<a href="<?php echo get_site_url(); ?>/history/">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/history.png" alt="" />
-					<span>Dixon Middle School History</span>
-				</a>
-			</li>
+			
 		</ul>
 	</section>
 
